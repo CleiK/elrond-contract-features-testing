@@ -1,0 +1,11 @@
+[package]
+name = "delegation-mock"
+version = "0.0.1"
+authors = ["CleiK"]
+edition = "2018"
+
+[dependencies.elrond-wasm]
+version = "0.30.0"
+
+[dev-dependencies.elrond-wasm-debug]
+version = "0.30.0"

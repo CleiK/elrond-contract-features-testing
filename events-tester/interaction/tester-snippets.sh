@@ -1,5 +1,5 @@
 #!/bin/bash
-PROJECT="/home/cleik/Documents/Development/Elrond/simplicity-contracts"
+PROJECT="${PWD}"
 INTERACTION_RESULT="${PROJECT}/interaction/result"
 PROXY="https://devnet-gateway.elrond.com"
 PROXY_ARGUMENT="--proxy="$PROXY
@@ -10,7 +10,7 @@ DEPLOYER="${PROJECT}/interaction/wallets/deployer.pem"
 USER1="${PROJECT}/interaction/wallets/user1.pem"
 
 TESTER_WASM="output/tester.wasm"
-DELEGATION_MOCK_WASM="../simplicity-contracts/mocks/delegation-mock/output/delegation-mock.wasm"
+DELEGATION_MOCK_WASM="../mocks/delegation-mock/output/delegation-mock.wasm"
 DEPLOY_GAS="80000000"
 MAX_GAS_LIMIT="600000000"
 
